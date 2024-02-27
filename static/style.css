@@ -1,0 +1,90 @@
+/* static/style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
+  border-radius: 20px; /* Add border-radius for curve shape */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add box shadow for 3D effect */
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for 3D effect */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: green; /* Set label color to green */
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px; /* Add border-radius for curve shape */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add box shadow for 3D effect */
+}
+
+form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px; /* Add border-radius for curve shape */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add box shadow for 3D effect */
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for 3D effect */
+}
+
+h1 {
+        font-size: 75px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+        font-size: 24px;
+}
+
+.emoji {
+        font-size: 48px;
+        margin-top: 20px;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .emoji {
+            font-size: 48px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Liver Diagnosis Result:</h1>
+        <p>{{ result }}</p>
+        {% if "No signs of liver disease" in result %}
+            <div class="emoji">&#128512;</div> <!-- Happy emoji -->
+        {% else %}
+            <div class="emoji">&#128549;</div> <!-- Sad emoji -->
+        {% endif %}
+        <div class="back-button">
+            <a href="/" class="btn btn-primary">Go Back</a> <!-- Add a back button to go back to the form -->
+        </div>
+    </div>
+</body>
+</html>
